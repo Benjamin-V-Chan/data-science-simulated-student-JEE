@@ -75,3 +75,16 @@ project-root/
 
 Outputs will be saved under `outputs/` (e.g., figures in `outputs/figures` and models in `outputs/models`).
 
+## Requirements
+
+- pandas
+- scikit-learn
+- matplotlib
+- joblib
+- numpy
+
+## Acknowledgments
+
+**Dataset name:** Simulated Dataset: JEE Dropout After Class 12  
+**Dataset author:** Jayanta Nath  
+**Dataset source:** https://www.kaggle.com/datasets/jayaantanaath/simulated-dataset-jee-dropout-after-class-12
