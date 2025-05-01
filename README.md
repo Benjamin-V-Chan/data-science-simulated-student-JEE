@@ -27,3 +27,51 @@ project-root/
     └── models/
 ```
 
+## Usage
+
+1. Setup the Project:
+
+   - Clone the repository.
+   - Ensure you have Python installed.
+   - Install required dependencies using the requirements.txt file.
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+2. Inspect the raw data
+   ```bash
+   python scripts/01_data_inspection.py
+   ```
+
+3. Preprocess and split
+   ```bash
+   python scripts/02_data_preprocessing.py
+   ```
+
+4. Generate exploratory visualizations
+   ```bash
+   python scripts/03_eda_visualization.py
+   ```
+
+5. Create additional features
+   ```bash
+   python scripts/04_feature_engineering.py
+   ```
+
+6. Train and tune models
+   ```bash
+   python scripts/05_model_training.py
+   ```
+
+7. Evaluate model performance
+   ```bash
+   python scripts/06_evaluation.py
+   ```
+
+8. Visualize top feature importances
+   ```bash
+   python scripts/07_feature_importance.py
+   ```
+
+Outputs will be saved under `outputs/` (e.g., figures in `outputs/figures` and models in `outputs/models`).
+
